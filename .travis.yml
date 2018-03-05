@@ -1,6 +1,6 @@
 dist: trusty
+language: bash
 sudo: required
-
 
 before_install:
   - echo $TRAVIS_PULL_REQUEST_SLUG
