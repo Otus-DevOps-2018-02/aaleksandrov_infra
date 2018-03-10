@@ -1,13 +1,6 @@
-language: python
-python:
-  - "3.4"
-  - "3.5"
+dist: trusty
+language: bash
+sudo: required
 
-script: python -m unittest
-
-# dist: trusty
-# language: bash
-# sudo: required
-
-# before_install:
-#   - curl https://raw.githubusercontent.com/express42/otus-homeworks/2018-02/run.sh | bash
+before_install:
+  - curl https://raw.githubusercontent.com/express42/otus-homeworks/2018-02/run.sh | bash
